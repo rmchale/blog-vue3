@@ -1,5 +1,21 @@
 [
     {
+        "id": "post",
+        "section": "guide",
+        "date": "June 21, 2021",
+        "title": "Customise your blog",
+        "description": "TODO WIP",
+        "url": "blog_store/posts/guide/post.md"
+    },
+    {
+        "id": "post",
+        "section": "main",
+        "date": "June 21, 2021",
+        "title": "Customise your blog",
+        "description": "TODO WIP",
+        "url": "blog_store/posts/main/post.md"
+    },
+    {
         "id": "setup-yor-own-blog",
         "section": "guide",
         "date": "February 11, 2020",
