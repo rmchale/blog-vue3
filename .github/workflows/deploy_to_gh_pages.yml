@@ -7,6 +7,7 @@ jobs:
 
   sync_badges:
     runs-on: ubuntu-18.04
+    if: ${{ false }}  # disable for now
     steps:
       - uses: actions/checkout@v2
 
@@ -26,7 +27,7 @@ jobs:
 
   build_dist:
     runs-on: ubuntu-18.04
-    needs: sync_badges
+#    needs: sync_badges
     steps:
       - uses: actions/checkout@v2
         with:
